@@ -48,7 +48,7 @@ public class Entrada_Salida {
             int cont = 0;
             String salida = " src/ej1/lineasImpares.txt";
             String linea;
-            
+
             FileReader lector = new FileReader(archivoEntrada);
             FileWriter escritor = new FileWriter(salida);
 
