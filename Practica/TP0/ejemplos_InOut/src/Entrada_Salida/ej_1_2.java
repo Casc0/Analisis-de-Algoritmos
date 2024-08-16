@@ -10,16 +10,19 @@ import java.util.Scanner;
 public class ej_1_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //Ingresa la ruta del archivo de entrada
         String entrada = "src/ej1/entrada.txt";
-        String salida = "";
+        String salida;
         String linea = null;
 
         System.out.println("Ejercicio 1 o 2?");
-        int ej = 1;
+        int ej = sc.nextInt();
 
         if(ej==1) {
+            //Ingresa la ruta del archivo de entrada del ejercicio 1
             salida = "src/ej1/sinEspacios.txt";
         }else{
+            //Ingresa la ruta del archivo de entrada del ejericio 2
             salida = "src/ej1/lineasImpares.txt";
 
         }
@@ -30,16 +33,17 @@ public class ej_1_2 {
             BufferedReader bufferLector = new BufferedReader(lector);
             BufferedWriter bufferEscritor = new BufferedWriter(escritor);
 
-            //elegir que hacer
+            //elije que hacer segun lo seleccionado previamente
             if(ej==1){
                 while((linea = bufferLector.readLine()) != null){
-                    bufferEscritor.write(sacarEspacios(linea));
+                    bufferEscritor.write(sacarEspacios(linea+ "\n"));
                 }
             }
             else{
                 int nroLinea = 0;
                 while((linea = bufferLector.readLine()) != null){
-                    if(nroLinea % 2 != 0) bufferEscritor.write(linea);
+                    //solo elegi las lineas cuyo modulo 2 sea distinot de 0, lo que significa que es impar
+                    if(nroLinea % 2 != 0) bufferEscritor.write(linea + "\n");
                     nroLinea++;
 
                 }
@@ -60,8 +64,9 @@ public class ej_1_2 {
         int longitud = linea.length();
         String nuevaLinea = "";
         for(int i = 0; i < longitud; i++ ){
+            //si el caracter es un espacio, lo saltea
             if(linea.charAt(i) != ' ') {
-                nuevaLinea += linea.charAt(i);
+                nuevaLinea += linea.charAt(i) ;
             }
         }
         return nuevaLinea;
