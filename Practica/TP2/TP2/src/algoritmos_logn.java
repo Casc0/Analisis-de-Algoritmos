@@ -22,8 +22,10 @@ public class algoritmos_logn {
         cargarArreglo(arr);
         mergeSort(arr, n);
 
+        for(int i=0; i < 10; i++){
+            System.out.println( "Tardo " + busqueda(arr)*1e-6  +" ms en recorrer el arreglo con " + n + " elementos.");
+        }
 
-        System.out.println( "Tardo " + busqueda(arr) +" nanosegundo en recorrer el arreglo con " + n + " elementos.");
     }
 
     //calcula el tiempo que tarda en buscar un elemento.
