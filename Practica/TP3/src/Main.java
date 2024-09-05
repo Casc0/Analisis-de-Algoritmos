@@ -25,10 +25,10 @@ public class Main {
                 puntero1++;
                 puntero2++;
             } else if (arr1[puntero1] < arr2[puntero2]) {
-                // Si el elemento de l1 es menor, avanzar el puntero de arr1
+                // Si el elemento de arr1 es menor, avanzar el puntero de arr1
                 puntero1++;
             } else {
-                // Si el elemento de l2 es menor, avanzar el puntero de arr2
+                // Si el elemento de arr2 es menor, avanzar el puntero de arr2
                 puntero2++;
             }
         }
@@ -45,7 +45,7 @@ public class Main {
 
 
         for(int i = 0; i < pruebas; i++){
-            //uso esta variable para almecenar la cantidad de comprobaciones antes de buscar comunes
+            //uso esta variable para almacenar la cantidad de comprobaciones antes de buscar comunes
             int comprActual = comprobaciones[0];
             System.out.println("Comparación n°" + (i+1) + " con comunes: " + encontrarComunes(generarArregloOrdenado(), generarArregloOrdenado(), comprobaciones) + "y " + (comprobaciones[0]-comprActual) + " comprobaciones realizadas");
         }
@@ -56,8 +56,12 @@ public class Main {
 
     public static int[] generarArregloOrdenado() {
         Random generador = new Random();
+
+        //generador para el tamaño del arreglo
         int largo = generador.nextInt(50)+1;
         int[] arr = new int[largo];
+
+        //generador de cada elemento del arreglo
         for(int i = 0; i < largo; i++){
             arr[i] = generador.nextInt(50)+1;
         }
