@@ -1,0 +1,15 @@
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.GeneratedMSBuildEditorConfig.editorconfig
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.AssemblyInfoInputs.cache
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.AssemblyInfo.cs
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.csproj.CoreCompileInputs.cache
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.sourcelink.json
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/TP
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.dll
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/refint/TP.dll
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.pdb
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/TP.deps.json
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/TP.genruntimeconfig.cache
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/TP.runtimeconfig.json
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/TP.dll
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/obj/Debug/net6.0/ref/TP.dll
+/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/TP.pdb

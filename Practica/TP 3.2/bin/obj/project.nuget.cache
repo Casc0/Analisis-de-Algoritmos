@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y2HtUEACuJvaqpqKY3DoMDDmawUxxoy1svDfc/tyX+23Zd3Deg3lmvqum8p9EmrBNvi+3Sr+6W/WBpt8nCulBg==",
+  "success": true,
+  "projectFilePath": "/home/casc0/Mis-Cosas/Fai/Estudiante/Carreras/Tercer Año/Analisis-de-Algoritmos/Practica/TP 3.2/bin/TP.csproj",
+  "expectedPackageFiles": [
+    "/home/casc0/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.runtime.extensions/4.3.0/system.runtime.extensions.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.runtime.numerics/4.3.0/system.runtime.numerics.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
+    "/home/casc0/.nuget/packages/microsoft.netcore.app.ref/6.0.33/microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "/home/casc0/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.33/microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "/home/casc0/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.33/microsoft.netcore.app.host.linux-x64.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}
