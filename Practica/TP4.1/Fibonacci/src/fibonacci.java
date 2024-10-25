@@ -1,8 +1,9 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class fibonacci {
 
-    public static final int cantidad = 80, numero = 30;
+    public static final int cantidad = 10, numero = 30;
     public static void main(String[] args) {
         imprimirPromedios();
     }
@@ -58,30 +59,52 @@ public class fibonacci {
         return tiempoTotal;
     }
 
-    public static long promedioIterativas(){
+    public static long promedioIterativas(long[] arr){
         long acum = 0, promedio;
 
         for (int i = 0; i < cantidad; i++){
-            acum += unaPruebaIterativa();
+            long unaPrueba = unaPruebaIterativa();
+            acum += unaPrueba;
+            arr[i] = unaPrueba;
         }
         promedio = acum/cantidad;
         return promedio;
     }
 
-    public static long promedioRecursivas(){
+    public static long promedioRecursivas(long[] arr){
         long acum = 0, promedio;
 
         for (int i = 0; i < cantidad; i++){
-            acum += unaPruebaRecursiva();
+            long unaPrueba = unaPruebaRecursiva();
+            acum += unaPrueba;
+            arr[i] = unaPrueba;
         }
         promedio = acum/cantidad;
         return promedio;
     }
 
     public static void imprimirPromedios(){
-        long promIt = promedioIterativas();
-        long promRec = promedioRecursivas();
-        System.out.println("Tiempo promedio de 80 pruebas iterativas: " + promIt*1e-6 + " ms ó " + promIt + " ns");
-        System.out.println("Tiempo promedio de 80 pruebas recursivas: " + promRec*1e-6 + " ms ó " + promRec + " ns");
+        long[] arr1 = new long[cantidad];
+        long[] arr2 = new long[cantidad];
+        long promIt = promedioIterativas(arr1);
+        long promRec = promedioRecursivas(arr2);
+
+        System.out.println("Iterativo:");
+        //imprimirArreglo(arr1);
+        System.out.println("Tiempo maximo: " + Arrays.stream(arr1).max());
+        System.out.println("Tiempo maximo: " + Arrays.stream(arr1).min());
+        System.out.println("Tiempo promedio de " + cantidad + " pruebas iterativas: " + promIt*1e-6 + " ms ó " + promIt + " ns");
+
+        System.out.println("Recursivo:");
+        //imprimirArreglo(arr2);
+        System.out.println("Tiempo maximo: " + Arrays.stream(arr2).max());
+        System.out.println("Tiempo maximo: " + Arrays.stream(arr2).min());
+        System.out.println("Tiempo promedio de " + cantidad + " pruebas recursivas: " + promRec*1e-6 + " ms ó " + promRec + " ns");
+    }
+
+    public static void imprimirArreglo(long[] arr){
+        for (int i = 0; i < cantidad; i++){
+            System.out.println(arr[i]);
+        }
     }
 }
